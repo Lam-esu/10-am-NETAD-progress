@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>CCTV System</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="cameras.html">Camera</a></li>
+            <li><a href="logs.html">Logs</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+
+    </aside>
+
+    <main class="main-content">
+
+        <div class="logs-header">
+            <h1>Audit Logs</h1>
+            <button id="exportLogs">Export CSV</button>
+        </div>
+
+        <input type="text" id="searchLogs" placeholder="Search logs...">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Action</th>
+                    <th>IP Address</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+
+            <tbody id="logsTable">
+
+                <tr>
+                    <td>admin</td>
+                    <td>Logged In</td>
+                    <td>192.168.1.10</td>
+                    <td>2026-05-14 09:00 AM</td>
+                </tr>
+
+                <tr>
+                    <td>admin</td>
+                    <td>Viewed Camera</td>
+                    <td>192.168.1.10</td>
+                    <td>2026-05-14 09:05 AM</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+</div>
+
+<script src="js/logs.js"></script>
+
+</body>
+</html>

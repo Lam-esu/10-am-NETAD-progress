@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>CCTV System</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="cameras.html">Camera</a></li>
+            <li><a href="logs.html">Logs</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><button id="logoutBtn">Logout</button></li>
+        </ul>
+
+    </aside>
+
+    <main class="main-content">
+
+        <h1>Dashboard Overview</h1>
+
+        <div class="stats-grid">
+
+            <div class="card">
+                <h3>Camera Status</h3>
+                <p>ONLINE</p>
+            </div>
+
+            <div class="card">
+                <h3>Users Active</h3>
+                <p>3</p>
+            </div>
+
+            <div class="card">
+                <h3>Security Alerts</h3>
+                <p>0</p>
+            </div>
+
+        </div>
+
+        <div class="camera-preview">
+            <h2>Main CCTV Feed</h2>
+
+            <img
+                src="https://placehold.co/900x500?text=LIVE+CCTV+FEED"
+                alt="CCTV Feed"
+            >
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>CCTV System</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="cameras.html">Camera</a></li>
+            <li><a href="logs.html">Logs</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+
+    </aside>
+
+    <main class="main-content">
+
+        <h1>Admin Panel</h1>
+
+        <div class="admin-grid">
+
+            <div class="card">
+                <h3>Add User</h3>
+                <button id="addUserBtn">Add User</button>
+            </div>
+
+            <div class="card">
+                <h3>Remove User</h3>
+                <button id="removeUserBtn">Remove User</button>
+            </div>
+
+            <div class="card">
+                <h3>Reset Password</h3>
+                <button id="resetPasswordBtn">Reset Password</button>
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>

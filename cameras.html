@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>CCTV System</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="cameras.html">Camera</a></li>
+            <li><a href="logs.html">Logs</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+
+    </aside>
+
+    <main class="main-content">
+
+        <h1>Live CCTV Camera</h1>
+
+        <div class="single-camera-card">
+
+            <div class="camera-header">
+                <h2>Camera</h2>
+                <span class="online">ONLINE</span>
+            </div>
+
+            <img
+                src="https://placehold.co/1200x700?text=LIVE+CCTV+CAMERA"
+                alt="Live Camera"
+            >
+
+            <div class="camera-controls">
+                <button id="refreshCamera">Refresh Feed</button>
+                <button id="snapshotBtn">Take Snapshot</button>
+                <button id="fullscreenBtn">Fullscreen</button>
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/cameras.js"></script>
+
+</body>
+</html>
